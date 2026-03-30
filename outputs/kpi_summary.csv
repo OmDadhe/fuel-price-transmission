@@ -1,0 +1,29 @@
+Metric,Value,Source
+Petrol RSP 2019-20,Rs.72.69/L,data.gov.in RSP table
+Petrol RSP 2024-25,Rs.94.73/L,data.gov.in RSP table
+Petrol RSP % change,+30.3%,Derived
+Diesel RSP 2019-20,Rs.65.78/L,data.gov.in RSP table
+Diesel RSP 2024-25,Rs.87.63/L,data.gov.in RSP table
+Diesel RSP % change,+33.2%,Derived
+Brent crude -- min in study period,$26.57/bbl (Apr 2020),EIA/FRED
+Brent crude -- max in study period,$122.71/bbl (Jun 2022),EIA/FRED
+Brent <-> Petrol RSP Pearson r,0.6936,Model 1 OLS
+Brent <-> Petrol RSP R2,0.4811,Model 1 OLS
+OLS model R2 (crude+excise+FX),0.8523,Model 1 OLS
+CCF peak lag (Brent -> CPI),3 months,Model 2 CCF
+VAR optimal lag (AIC),p = 1,Model 3 VAR
+Ridge RMSE (holdout),1.098,Model 4 Ridge
+Ridge MAPE% (holdout),0.921%,Model 4 Ridge
+CPI cumulative change 2019->2025,+37.0%,MOSPI
+USD/INR 2019-04 -> 2025-01,Rs.69.41 -> Rs.86.27,FRED
+Rupee depreciation (study period),+24.3%,Derived
+INR depreciation effect on crude,+Rs.12.31/L,Derived
+Peak excise share of pump price,40.8%,May 2020–Nov 2021
+Max policy buffer (overcharged),+Rs.50.0/L,Derived
+Min policy buffer (subsidised),Rs.6.9/L,Derived
+Q1 fuel burden (% of income),11.8%,Consumer model
+Q5 fuel burden (% of income),4.2%,Consumer model
+Q1/Q5 regressive ratio,2.8×,Consumer model
+Rs.10 hike impact -- Q1,1.2% of income,Consumer model
+Rs.10 hike impact -- Q5,0.4% of income,Consumer model
+Rs.10 hike regressivity factor,3×,Consumer model
